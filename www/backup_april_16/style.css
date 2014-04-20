@@ -1,0 +1,116 @@
+body {
+	padding-left:11em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: black;
+	background-color: #FFFFFF;
+}
+ul.navbar {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 5em;
+	left: 0em;
+	width: 8.9em;
+}
+a.nav1:link,a.nav1:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#777777;
+width:8.8em;
+height:5em;
+text-align:center;
+padding:0em;
+text-decoration:none;
+text-transform:uppercase;
+line-height:5em;
+border-right: 0.2em solid #000000;
+border-left: 0.1em solid #000000;
+border-top: 0.2em solid #000000;
+border-bottom: 0.1em solid #000000;
+}
+a.nav2:link,a.nav2:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#777777;
+width:8.8em;
+height:5em;
+text-align:center;
+padding:0em;
+text-decoration:none;
+text-transform:uppercase;
+line-height:5em;
+border-right: 0.2em solid #000000;
+border-left: 0.1em solid #000000;
+border-bottom: 0.1em solid #000000;
+}
+a.nav3:link,a.nav3:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#777777;
+width:8.8em;
+height:5em;
+text-align:center;
+padding:0em;
+text-decoration:none;
+text-transform:uppercase;
+line-height:5em;
+border-right: 0.2em solid #000000;
+border-left: 0.1em solid #000000;
+border-bottom: 0.1em solid #000000;
+}
+a.nav4:link,a.nav4:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#777777;
+width:8.8em;
+height:5em;
+text-align:center;
+padding:0em;
+text-decoration:none;
+text-transform:uppercase;
+line-height:5em;
+border-right: 0.2em solid #000000;
+border-left: 0.1em solid #000000;
+border-bottom: 0.2em solid #000000;
+}
+a.nav1:hover,a.nav1:active, a.nav2:hover,a.nav2:active, a.nav3:hover,a.nav3:active, a.nav4:hover,a.nav4:active
+{
+background-color:#FFB90F;
+}
+h1 {
+	font-family:Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+}
+#top, #bottom, #left, #right {
+	background: #ED9121;
+	position: fixed;
+}
+#left {
+	top: 0; bottom: 0;
+	width: 9em;
+}
+#left { left: 0; }
+#right { right: 0; }
+		
+#top {
+	left: 0; right: 0;
+	height: 10px;
+}
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+
+address {
+	position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 100px;
+}
